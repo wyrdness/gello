@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/gello",
     "maintainers": [
       {
@@ -19,108 +19,265 @@
   "phenomenon": {
     "id": "gello",
     "name": "Gello",
-    "aliases": [],
+    "aliases": [
+      { "name": "Gyllou", "language": "Greek (Byzantine)", "region": "Byzantine Empire" },
+      { "name": "Gylou", "language": "Greek" },
+      { "name": "Gillo", "language": "Greek" },
+      { "name": "Gelu", "language": "Greek" },
+      { "name": "Gelloudes", "language": "Greek (Byzantine)", "meaning": "plural form denoting a class of demons" },
+      { "name": "Abyzou", "language": "Greek", "meaning": "from abyssos, 'the deep'; identified with Gello in late antiquity and Byzantine literature" },
+      { "name": "Baskania", "language": "Greek", "meaning": "evil eye" }
+    ],
     "category": "DEMON_ANGEL",
-    "subcategory": "Child-killer demon",
+    "subcategory": "Child-killing female demon",
     "tags": [
-      "folklore",
-      "mythology"
+      "child-killer",
+      "greek-folklore",
+      "byzantine",
+      "female-demon",
+      "apotropaic",
+      "infant-death",
+      "lamia-tradition"
     ],
     "status": "documented",
     "description": {
-      "summary": "Greek female demon who attacks pregnant women and children out of jealousy for dying childless This phenomenon represents an important part of Greek folklore and cultural heritage, with documented accounts and traditions spanning generations.",
-      "full": "Greek female demon who attacks pregnant women and children out of jealousy for dying childless This phenomenon represents an important part of Greek folklore and cultural heritage, with documented accounts and traditions spanning generations."
+      "summary": "A female demon of Greek and Byzantine tradition, attested as early as Sappho (6th century BC), said to attack pregnant women, newborns, and the unmarried, and the central target of a long-running corpus of apotropaic charms and exorcisms in the Greek-speaking world.",
+      "full": "Gello (Greek: Γελλώ; later plural Gelloudes, γελοῦδες) is a female demon attested in Greek literature from the archaic period through the Byzantine and modern Greek folk traditions. Earliest references are in a fragment attributed to Sappho (6th century BC) and in later proverb-collections (Zenobius, 2nd century AD; Hesychius, 5th–6th century), where Gello is said to be the ghost (eidolon) of a young woman who died unwed or childless and returns to harm pregnant women, infants, and virgins. In the Byzantine period the singular figure became a class of beings; John of Damascus (8th century) equated the gelloudes with stryngai (witches who fly at night and strangle children), and Michael Psellos (11th century) wrote a treatise discussing their nature and proposing a connection with the Hebrew Lilith. The 'Legend of Saint Sisinnios' — preserved in Greek, Coptic, Ethiopic, Slavonic, Romanian, and other manuscripts — narrates how the saint pursues Gyllou after she kills the children of Melitene, forcing her to reveal her many secret names so they may be inscribed on protective amulets. The tradition lies behind a vast corpus of Byzantine apotropaic amulets (often invoking Sisinnios or Solomon as a 'holy rider' spearing the demon), exorcisms, and folk practices that remained in use into the 20th century."
     },
     "etymology": {
-      "origin": "| Greek |",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The name Gello has been linked by Carl Frank, Walter Burkert, and M. L. West to the Akkadian/Mesopotamian demon Gallû, a class of underworld spirits associated with sickness and death; this same root has also been argued to underlie the later Arabic/English 'ghoul'. A Greek folk-etymology connected the name to gel- ('grin, laugh').",
+      "meaning": "In its earliest Greek attestations, Gello is the unappeased ghost of a young woman dead before her time. The plural gelloudes designates child-killing female demons.",
+      "first_use": "Attested in a fragment of Sappho (6th century BC); the plural gelloudes is first found in John of Damascus (8th century AD)."
     }
   },
   "classification": {
     "taxonomy": {
       "category": "DEMON_ANGEL",
-      "type": "Child-killer demon",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Female child-killing demon",
+      "subtype": "Reproductive / nursery demon",
+      "variant": "Greek and Byzantine"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "lamia", "name": "Lamia", "relationship": "similar", "description": "Greek child-killing female demon often paired with Gello in classical sources" },
+      { "id": "strzyga", "name": "Strzyga / Stryngai", "relationship": "similar", "description": "Slavic and Byzantine night-flying witch demons equated with the gelloudes by John of Damascus" },
+      { "id": "night-hag", "name": "Night Hag (Lilith and analogues)", "relationship": "similar", "description": "Pan-Mediterranean and Near Eastern child-killing female demon tradition; explicitly compared to Gello by Michael Psellos" },
+      { "id": "ghul", "name": "Ghul", "relationship": "related", "description": "Possibly cognate via a shared Mesopotamian Gallû etymology (Frank, Burkert, West)" },
+      { "id": "empusa", "name": "Empusa", "relationship": "similar", "description": "Greek shape-shifting female demon often grouped with Lamia and Gello" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["unspecified; described as appearing in human or monstrous form"],
+      "features": [
+        { "feature": "Female humanoid form", "description": "Often appears as a young woman or, in later Byzantine tradition, as an old crone or witch", "frequency": "common" },
+        { "feature": "Shape-shifting", "description": "Said to take the form of a fly, snake, dragon, or reptile in order to enter sealed rooms", "frequency": "common" },
+        { "feature": "Serpentine or fish-like lower body", "description": "Depicted on Byzantine amulets with a fish- or serpent-tailed lower body", "frequency": "occasional" },
+        { "feature": "Many secret names", "description": "Possesses 'twelve and a half' secret names that, when written on an amulet, force her to depart (Legend of Saint Sisinnios)", "frequency": "always" }
+      ],
+      "morphology": "In classical sources Gello is the bodiless ghost (eidolon) of a young woman; in Byzantine sources she is a flying, shape-shifting demon, sometimes depicted on amulets with a fish- or serpent-like lower body. Orthodox theology of the period officially denied she could possess a real body."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Killing or stealing infants", "description": "Strangles newborns or carries them off; said to attack children before baptism in particular", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Causing miscarriage and infertility", "description": "Attacks pregnant women, causing miscarriage or stillbirth", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Drying up mothers' milk", "description": "Said to render nursing mothers unable to feed their infants", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Shape-shifting / penetrating sealed spaces", "description": "Transforms into a fly or other small creature to slip through closed doors and windows", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Bound by her secret names", "description": "Forced to reveal her names and depart when confronted by Saint Sisinnios or the archangel Michael", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "variable",
+      "habitat_preference": ["domestic spaces, especially nurseries and lying-in chambers", "tombs", "wild and uninhabited places"],
+      "diet": "Said to drink the blood and devour the vital fluids of infants",
+      "patterns": [
+        "Targets pregnant women, women in childbirth, and unbaptized infants",
+        "Most active at night, in the days between birth and baptism",
+        "Repelled by Christian symbols, baptism, naming exorcisms, and inscribed amulets"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "| Greek |",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Originally a localized Greek tradition (attested for Sappho on Lesbos), the Gello / gelloudes complex spread throughout the Greek-speaking Byzantine world and, through the 'Legend of Saint Sisinnios', into Coptic, Ethiopic, Armenian, Romanian, Slavonic, Arabic, Syriac, and Hebrew manuscript traditions across the eastern Mediterranean and Near East.",
+      "continents": ["Europe", "Asia", "Africa"],
+      "countries": ["Greece", "Cyprus", "Turkey (Byzantine)", "Egypt", "Ethiopia", "Romania", "Bulgaria", "Armenia", "Syria"],
+      "regions": ["Aegean", "Anatolia", "Levant", "Balkans", "North Africa"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Lesbos",
+        "location": {
+          "description": "Island of Lesbos, eastern Aegean — home of Sappho, the earliest source for Gello",
+          "country": "Greece",
+          "region": "North Aegean",
+          "coordinates": { "latitude": 39.1, "longitude": 26.55 }
+        },
+        "peak_period": "6th century BC",
+        "notes": "Earliest attested context for Gello, in a fragment of Sappho preserved by Zenobius"
+      },
+      {
+        "name": "Constantinople",
+        "location": {
+          "description": "Imperial capital of the Byzantine Empire; centre of the gelloudes literature, exorcisms, and amulet production",
+          "country": "Turkey",
+          "region": "Marmara",
+          "coordinates": { "latitude": 41.0082, "longitude": 28.9784 }
+        },
+        "peak_period": "8th–14th century AD",
+        "notes": "Setting of the 'Legend of Saint Sisinnios' (in some versions, Melitene's tower stands at Chalcopratia in Constantinople)"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-6th century BC",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Sappho fragment (6th century BC), preserved in later proverb collections"
+      },
+      "peak_activity_periods": [
+        { "period": "8th–14th centuries AD", "description": "Byzantine era: codification of the gelloudes tradition by John of Damascus, Michael Psellos, and Nikephoros Kallistos Xanthopoulos; production of Sisinnios amulets" },
+        { "period": "15th–17th centuries AD", "description": "Manuscript proliferation of the Legend of Saint Sisinnios; documentation by Leo Allatios" }
+      ],
+      "seasonal_patterns": "No specific seasonal pattern documented; risk concentrated in the period between birth and baptism."
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "| Greek |",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Ancient Greek (archaic Aegean) tradition, with possible roots in Mesopotamian (Akkadian Gallû) demonology. Gello is best understood as part of a Mediterranean and Near Eastern complex of female reproductive demons that includes Lamia, Mormo, Empusa, Lilith, and Abyzou.",
+      "earliest_accounts": "A fragment attributed to Sappho (6th century BC) refers to Gello as a notorious threat to children; this fragment is preserved by the proverb-collector Zenobius (2nd century AD) and the lexicographer Hesychius of Alexandria (5th–6th century).",
+      "folklore_connections": "Connected to Lamia, Mormo, and Empusa in classical Greek tradition; equated with stryngai (witches) by John of Damascus; compared to Lilith by Michael Psellos; equated with Abyzou (the strangler of newborns from the Testament of Solomon) on Byzantine amulets."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "c. 600 BC", "event": "Sappho refers to Gello as more devoted to children than even Gello herself, in a fragment preserved by Zenobius", "significance": "Earliest attestation of Gello in Greek literature", "source": "Sappho fr. via Zenobius, Epitome 3.3" },
+      { "date": "2nd century AD", "event": "Zenobius compiles the proverb 'fonder of children than Gello' with explanatory notes", "significance": "First explicit etiology: Gello as the ghost of a young woman who died before her time", "source": "Zenobius, Epitome of Proverbs" },
+      { "date": "8th century AD", "event": "John of Damascus discusses gelloudes (plural) as nocturnal child-killing witches synonymous with stryngai", "significance": "Earliest plural usage; bridges classical demonology and Byzantine folk-Christianity", "source": "John of Damascus, attributed treatises on demons" },
+      { "date": "11th century AD", "event": "Michael Psellos writes a treatise on the gelloudes, discussing their attacks on pregnant women and infants and proposing a connection to Hebrew Lilith", "significance": "Most extensive Byzantine theological treatment", "source": "Michael Psellos, Peri Energeias Daimonon and related works" },
+      { "date": "14th century AD", "event": "Nikephoros Kallistos Xanthopoulos describes gelloudes removing infants from their bedrooms", "significance": "Continued ecclesiastical engagement with the tradition", "source": "Nikephoros Kallistos, Ecclesiastical History" },
+      { "date": "15th century AD", "event": "Earliest surviving manuscript of the 'Legend of Saint Sisinnios', in which Gyllou kills the children of Melitene and is forced to reveal her secret names", "significance": "Foundational legend behind the Byzantine and post-Byzantine apotropaic amulet tradition", "source": "Greek manuscript, see Greenfield 1989; Spier 1993" },
+      { "date": "1645", "event": "Leo Allatios publishes 'De Graecorum hodie quorundam opinionibus', collecting contemporary Greek beliefs about Gello and other demons and criticizing certain folk practices", "significance": "Earliest comprehensive scholarly survey", "source": "Leo Allatios, De Graecorum hodie quorundam opinionibus (Cologne, 1645)" }
+    ],
+    "modern_era": "Modern Greek folklore has continued to invoke Gyllou and Baskania (the evil eye) in apotropaic prayers and exorcisms into the 20th century. Scholarly attention from Sarah Iles Johnston, Karen Hartnup, Richard P. H. Greenfield, and Jeffrey Spier has reframed Gello as a key node in Mediterranean demonology and the history of the apotropaic amulet."
   },
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "0600-01-01", "latest": "2026-05-07" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
   "evidence": {
-    "physical": [],
-    "photographic": [],
-    "video": [],
-    "audio": [],
-    "trace": []
+    "physical": [
+      {
+        "id": "gello-evidence-sisinnios-amulets",
+        "type": "amulets",
+        "name": "Byzantine 'holy rider' amulets",
+        "description": "Bronze and silver amulets, mostly 6th–13th century, depicting a mounted saint (Sisinnios or Solomon) spearing a female demon labelled Abyzou or Gyllou, with apotropaic inscriptions invoking Christ, Mary, and named saints.",
+        "status": "verified",
+        "analysis": "Catalogued by Jeffrey Spier in 'Medieval Byzantine Magical Amulets and Their Tradition' (Journal of the Warburg and Courtauld Institutes, 1993).",
+        "source": "Spier, J. (1993)"
+      }
+    ],
+    "documentary": [
+      {
+        "id": "gello-evidence-sisinnios-legend",
+        "type": "manuscript tradition",
+        "name": "Legend of Saint Sisinnios",
+        "description": "A multilingual manuscript tradition (Greek, Coptic, Ethiopic, Armenian, Romanian, Slavonic, Arabic, Syriac, Hebrew) narrating Gyllou's killing of the children of Melitene and her forced revelation of her secret names.",
+        "status": "verified",
+        "analysis": "The standard scholarly survey is Richard P. H. Greenfield, 'Saint Sisinnios, the Archangel Michael and the Female Demon Gylou' (1989).",
+        "source": "Greenfield, R. P. H. (1989)"
+      },
+      {
+        "id": "gello-evidence-allatios",
+        "type": "treatise",
+        "name": "De Graecorum hodie quorundam opinionibus",
+        "date": "1645",
+        "description": "Leo Allatios's Latin treatise on 17th-century Greek folk beliefs, including extended treatment of Gello and the gelloudes.",
+        "status": "verified",
+        "analysis": "Reissued and analysed in Karen Hartnup, 'On the Beliefs of the Greeks' (Brill, 2004).",
+        "source": "Allatios, L. (1645); Hartnup, K. (2004)"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Restless ghost / unappeased dead",
+        "description": "Classical interpretation: Gello is the ghost (eidolon) of a young woman who died before her time and unwed, whose bitterness or unfulfilled life makes her dangerous to children and pregnant women.",
+        "proponents": ["Sappho", "Zenobius", "Hesychius of Alexandria"],
+        "evidence_cited": ["The Sapphic fragment as preserved by Zenobius", "Hesychius's lexicon entry"]
+      },
+      {
+        "name": "Demonic / Satanic witch tradition",
+        "description": "Byzantine Christian interpretation: Gello (as the gelloudes) is a class of demons, identified with the stryngai of pagan tradition and ultimately with the Devil's agents; certain women may be accused of becoming gelloudes through diabolical pact.",
+        "proponents": ["John of Damascus", "Michael Psellos", "Leo Allatios"],
+        "evidence_cited": ["Patristic and Byzantine treatises on demons", "Trial records (e.g. Life of Tarasius, 9th century)"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Folkloric explanation for infant mortality",
+        "description": "Modern scholarship treats Gello as a personification of pre-modern infant mortality, miscarriage, sudden infant death, and puerperal complications, providing a culturally meaningful narrative for losses with otherwise opaque causes.",
+        "proponents": ["Sarah Iles Johnston", "Karen Hartnup", "Richard P. H. Greenfield"],
+        "evidence_cited": ["Concentration of Gello-attacks in the period before baptism, when historical infant mortality was highest", "Continuity of the tradition with other Mediterranean child-killing demon types (Lamia, Lilith, Abyzou)"]
+      },
+      {
+        "name": "Diffusionist / Mesopotamian origin",
+        "description": "The name and figure are argued to derive from the Akkadian Gallû, an underworld demon; Gello is then one node in a wider Mediterranean and Near Eastern reproductive-demon complex.",
+        "proponents": ["Carl Frank", "Walter Burkert", "M. L. West"],
+        "evidence_cited": ["Phonological link Gallû -> Gello", "Shared functional profile across Mesopotamian, Greek, Hebrew, and Arabic traditions"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Greek and Byzantine apotropaic amulets invoking Saint Sisinnios or Solomon",
+        "Greek folk exorcisms naming Gello/Gyllou and her many secret names",
+        "Use of red coral, garlic, and Christian symbols at the cradle in modern Greek folk practice"
+      ],
+      "stories": [
+        "Sappho's fragment on Gello (6th century BC, via Zenobius)",
+        "The Legend of Saint Sisinnios and the demon Gyllou (15th century manuscript)",
+        "Leo Allatios's accounts of 17th-century Greek belief in elderly women becoming gelloudes"
+      ],
+      "beliefs": "In Greek and Byzantine tradition, Gello and her plural gelloudes embody the dangers facing pregnant women, women in childbed, and unbaptized infants. Protection is sought through Christian rite (especially baptism), inscribed amulets bearing the saint's image and the demon's secret names, and named exorcism."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Sarah Iles Johnston, 'Restless Dead: Encounters Between the Living and the Dead in Ancient Greece' (1999)",
+        "Karen Hartnup, 'On the Beliefs of the Greeks: Leo Allatios and Popular Orthodoxy' (Brill, 2004)"
+      ],
       "film_tv": [],
-      "games": [],
-      "other": []
+      "games": [
+        "Pathfinder Roleplaying Game — 'gylou' devil entry"
+      ],
+      "other": [
+        "Modern Greek folk apotropaic prayers against Baskania (the evil eye), in continuity with the Gello tradition"
+      ]
     }
   },
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Sarah Iles Johnston", "affiliation": "Ohio State University (Classics)", "contribution": "Comprehensive analysis of Greek demonic and ghost traditions, including Gello, in 'Restless Dead' (1999)", "period": "1990s–present" },
+      { "name": "Richard P. H. Greenfield", "affiliation": "Queen's University (Classics)", "contribution": "Standard scholarly study of Saint Sisinnios and the female demon Gylou (1989)", "period": "1980s–present" },
+      { "name": "Jeffrey Spier", "affiliation": "Independent / J. Paul Getty Museum", "contribution": "Catalogue and analysis of Byzantine apotropaic amulets, including Gello/Abyzou types (1993)", "period": "1990s–present" },
+      { "name": "Karen Hartnup", "affiliation": "Independent (Byzantine studies)", "contribution": "Monograph on Leo Allatios and 17th-century Greek demonology (Brill, 2004)", "period": "2000s" },
+      { "name": "Leo Allatios (Allatius)", "affiliation": "Vatican Library (17th century)", "contribution": "First major Western scholarly survey of contemporary Greek beliefs about Gello and the gelloudes (1645)", "period": "17th century" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Ongoing work in Byzantine demonology and the comparative study of Mediterranean and Near Eastern child-killing demon traditions (Gello, Lilith, Abyzou, Lamia)."
   },
-  "sources": []
+  "sources": [
+    { "id": "johnston-1999", "type": "book", "title": "Restless Dead: Encounters Between the Living and the Dead in Ancient Greece", "authors": ["Sarah Iles Johnston"], "publication": "University of California Press", "date": "1999" },
+    { "id": "hartnup-2004", "type": "book", "title": "On the Beliefs of the Greeks: Leo Allatios and Popular Orthodoxy", "authors": ["Karen Hartnup"], "publication": "Brill", "date": "2004" },
+    { "id": "greenfield-1989", "type": "paper", "title": "Saint Sisinnios, the Archangel Michael and the Female Demon Gylou: The Typology of the Greek Literary Stories", "authors": ["Richard P. H. Greenfield"], "publication": "Byzantina", "date": "1989" },
+    { "id": "spier-1993", "type": "paper", "title": "Medieval Byzantine Magical Amulets and Their Tradition", "authors": ["Jeffrey Spier"], "publication": "Journal of the Warburg and Courtauld Institutes", "date": "1993" },
+    { "id": "allatios-1645", "type": "book", "title": "De Graecorum hodie quorundam opinionibus", "authors": ["Leo Allatios"], "publication": "Cologne", "date": "1645" },
+    { "id": "wikipedia-gello", "type": "website", "title": "Gello", "url": "https://en.wikipedia.org/wiki/Gello", "accessed": "2026-05-07" }
+  ]
 }
